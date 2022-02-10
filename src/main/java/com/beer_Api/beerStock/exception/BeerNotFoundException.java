@@ -1,4 +1,4 @@
-package com.beer_Api_Test.beerStock.exception;
+package com.beer_Api.beerStock.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

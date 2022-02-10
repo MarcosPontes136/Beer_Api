@@ -1,4 +1,4 @@
-package com.beer_Api_Test.beerStock.entity;
+package com.beer_Api.beerStock.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.beer_Api_Test.beerStock.enums.BeerType;
+import com.beer_Api.beerStock.enums.BeerType;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.beer_Api_Test.beerStock;
+package com.beer_Api.beerStock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

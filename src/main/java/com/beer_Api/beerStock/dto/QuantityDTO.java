@@ -1,4 +1,4 @@
-package com.beer_Api_Test.beerStock.dto;
+package com.beer_Api.beerStock.dto;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;

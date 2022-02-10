@@ -1,4 +1,4 @@
-package com.beer_Api_Test.beerStock.enums;
+package com.beer_Api.beerStock.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
