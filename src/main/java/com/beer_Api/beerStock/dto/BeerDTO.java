@@ -15,12 +15,12 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class BeerDTO {
 
 	private Long id;
-	
+
 	@NotNull
 	@Size(min = 1, max = 200)
 	private String name;
@@ -28,15 +28,15 @@ public class BeerDTO {
 	@NotNull
 	@Size(min = 1, max = 200)
 	private String brand;
-	
+
 	@NotNull
 	@Max(500)
-	private int max;
-	
+	private Integer max;
+
 	@NotNull
 	@Max(100)
-	private int quantity;
-	
+	private Integer quantity;
+
 	@Enumerated(EnumType.STRING)
 	@NotNull
 	private BeerType type;
